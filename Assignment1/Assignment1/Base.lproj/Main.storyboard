@@ -118,24 +118,24 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="foS-E8-Txt"/>
-                                        <exclude reference="obu-nh-3cn"/>
                                         <exclude reference="7qm-Ai-AG9"/>
                                         <exclude reference="bJl-hy-3qW"/>
+                                        <exclude reference="foS-E8-Txt"/>
+                                        <exclude reference="obu-nh-3cn"/>
                                         <exclude reference="EYR-GZ-KIm"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="foS-E8-Txt"/>
                                         <include reference="7qm-Ai-AG9"/>
+                                        <include reference="foS-E8-Txt"/>
                                         <include reference="EYR-GZ-KIm"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="obu-nh-3cn"/>
                                         <include reference="bJl-hy-3qW"/>
+                                        <include reference="obu-nh-3cn"/>
                                     </mask>
                                 </variation>
                             </view>
