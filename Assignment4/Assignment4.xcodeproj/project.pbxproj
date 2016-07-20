@@ -21,6 +21,7 @@
 		92A6DA581D3C6E1500421829 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A6DA571D3C6E1500421829 /* Grid.swift */; };
 		92A6DA5A1D3C7F2600421829 /* StandardEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A6DA591D3C7F2600421829 /* StandardEngine.swift */; };
 		92A6DA5C1D3D0CD500421829 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A6DA5B1D3D0CD500421829 /* GridView.swift */; };
+		92E66A781D40339C00662ECB /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 92E66A771D40339C00662ECB /* License.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		92A6DA571D3C6E1500421829 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		92A6DA591D3C7F2600421829 /* StandardEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardEngine.swift; sourceTree = "<group>"; };
 		92A6DA5B1D3D0CD500421829 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		92E66A771D40339C00662ECB /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		92A6DA381D3BF2D500421829 /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
+				92E66A771D40339C00662ECB /* License.rtf */,
 				92A6DA391D3BF2D500421829 /* AppDelegate.swift */,
 				92A6DA3B1D3BF2D500421829 /* InstrumentationViewController.swift */,
 				92A6DA3D1D3BF2D500421829 /* SimulationViewController.swift */,
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E66A781D40339C00662ECB /* License.rtf in Resources */,
 				92A6DA461D3BF2D500421829 /* LaunchScreen.storyboard in Resources */,
 				92A6DA431D3BF2D500421829 /* Assets.xcassets in Resources */,
 				92A6DA411D3BF2D500421829 /* Main.storyboard in Resources */,
@@ -324,6 +328,7 @@
 				92A6DA4C1D3BF2D500421829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
