@@ -6,10 +6,10 @@ func isLeap(year: Int) -> Bool {
 }
 
 func julianDate(year: Int, month: Int, day: Int) -> Int {
-    //add up the days from full years
-    var ret = ((year-1900)*365) + ((year-1900)/4) - ((year-1900)/100) + ((year-1900)/400)
-    //add up the days from full months
-    ret += ([0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31])[0...month-1].reduce(0, combine: +)
+    //add up the days from full prior years
+    var ret = ((year-1900)*365) + ((year-1901)/4) - ((year-1901)/100) + ((year-1901)/400)
+    //add up the days from full prior months
+    ret += ([0, 31, (isLeap(year) ? 29 : 28), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31])[0...month-1].reduce(0, combine: +)
     //add in the days in the current month
     return ret + day
 }
