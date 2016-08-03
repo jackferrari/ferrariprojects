@@ -81,10 +81,10 @@
 				92A6DA4D1D3BF5C600421829 /* StatisticsViewController.swift */,
 				92A6DA4F1D3C525900421829 /* GridProtocol.swift */,
 				92A6DA551D3C695700421829 /* EngineProtocol.swift */,
+				92A6DA531D3C683B00421829 /* EngineDelegate.swift */,
 				92A6DA571D3C6E1500421829 /* Grid.swift */,
 				92A6DA591D3C7F2600421829 /* StandardEngine.swift */,
 				92A6DA5B1D3D0CD500421829 /* GridView.swift */,
-				92A6DA531D3C683B00421829 /* EngineDelegate.swift */,
 				92A6DA511D3C672400421829 /* CellStates.swift */,
 				92A6DA3F1D3BF2D500421829 /* Main.storyboard */,
 				92A6DA421D3BF2D500421829 /* Assets.xcassets */,
@@ -295,6 +295,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = harvard.Assignment4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +307,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = harvard.Assignment4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
